@@ -1,0 +1,145 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">PoshColor</S>
+      <Version N="Version">1.0.3.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Brings color to the default powershell.</S>
+      <S N="Author">Eddie de Bear</S>
+      <S N="CompanyName">JustABearOz</S>
+      <S N="Copyright">(c) Eddie de Bear. All rights reserved.</S>
+      <DT N="PublishedDate">2020-12-27T05:24:21+02:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-05-06T18:51:07.6653047+03:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/JustABearOz/PoshColor/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/JustABearOz/PoshColor</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Color</S>
+          <S>Colour</S>
+          <S>File</S>
+          <S>Service</S>
+          <S>Select-String</S>
+          <S>Module</S>
+          <S>EventLog</S>
+          <S>Customisation</S>
+          <S>Customization</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-PoshColorTheme</S>
+                <S>Set-PoshColorTheme</S>
+                <S>Get-PoshColorThemes</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-PoshColorTheme</S>
+                <S>Set-PoshColorTheme</S>
+                <S>Get-PoshColorThemes</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixes an issue with headings rendering for the wrong items.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) Eddie de Bear. All rights reserved.</S>
+          <S N="description">Brings color to the default powershell.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">* Fixes an issue with headings rendering for the wrong items.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">908</S>
+          <S N="downloadCount">1099</S>
+          <S N="packageSize">19826</S>
+          <S N="published">27/12/2020 05:24:21 +02:00</S>
+          <S N="created">27/12/2020 05:24:21 +02:00</S>
+          <S N="lastUpdated">06/05/2022 12:37:46 +03:00</S>
+          <S N="tags">Color Colour File Service Select-String Module EventLog Customisation Customization PSModule PSFunction_Get-PoshColorTheme PSCommand_Get-PoshColorTheme PSFunction_Set-PoshColorTheme PSCommand_Set-PoshColorTheme PSFunction_Get-PoshColorThemes PSCommand_Get-PoshColorThemes PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-05-06T12:37:46Z</S>
+          <S N="NormalizedVersion">1.0.3</S>
+          <S N="Authors">Eddie de Bear</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">PoshColor.nuspec|New-CommandWrapper.ps1|PoshColor.psd1|PoshColor.psm1|PoshColorFunctions.ps1|Renderers\CommandInfoRenderer.ps1|Renderers\EventLogRecordRenderer.ps1|Renderers\FileRenderer.ps1|Renderers\MatchInfoRenderer.ps1|Renderers\MemberDefinitionRenderer.ps1|Renderers\PSDriveInfoRenderer.ps1|Renderers\PSModuleInfoRenderer.ps1|Renderers\ServiceControllerRenderer.ps1|Themes\Cool.ps1|Themes\Default.ps1|Themes\DefaultHighColor.ps1</S>
+          <S N="GUID">97c49386-da8c-4b3d-aa54-f63bc0a41317</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\roeyk\OneDrive\Documents\PowerShell\Modules\PoshColor\1.0.3.0</S>
+    </MS>
+  </Obj>
+</Objs>
